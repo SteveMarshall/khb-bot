@@ -76,7 +76,6 @@ fails = [
   "RIDIC",
   "HP the Deatheaters",
   "#careerfail"
-  # "-gate",
   "oh my GOD!",
   "‘MARE",
   "#HPdramz"
@@ -113,12 +112,6 @@ module.exports = (robot) ->
 
   robot.hear /(?=.*\bgoing\b)(?=.*\lunch).*/i, (msg) ->
     msg.send "Can you get me a diet coke?"
-
-  robot.hear /(?=.*\b(where|seen)\b)(?=.*\bnicole).*/i, (msg) ->
-    msg.send "Where’s your work wife @mat?"
-
-  # robot.hear /(?=.*\bfriday\b).*/i, (msg) ->
-  #   msg.send "Happy Friday!"
 
   robot.hear /holloway/i, (msg) ->
     msg.send "lolloway"
