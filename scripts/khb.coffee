@@ -78,7 +78,8 @@ fails = [
   "#careerfail"
   "oh my GOD!",
   "‘MARE",
-  "#HPdramz"
+  "#HPdramz",
+  "#blameash"
 ]
 
 loges = [
@@ -124,3 +125,6 @@ module.exports = (robot) ->
 
   robot.hear /what time/i, (msg) ->
     msg.send "lol o'clock"
+
+  robot.hear /\bash\b/i, (msg) ->
+    msg.send "#blameash"
