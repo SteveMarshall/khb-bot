@@ -69,7 +69,8 @@ skillz = [
   "brrraap",
   "Cheers champion",
   "#EXPERT!",
-  "#FACTZ"
+  "#FACTZ",
+  "#sprintgoalz"
 ]
 
 fails = [
