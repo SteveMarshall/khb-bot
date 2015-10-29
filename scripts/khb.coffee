@@ -106,7 +106,7 @@ module.exports = (robot) ->
   robot.hear /\b(done|finish|complete|manage|perform|thanks)(ed)?\b/i, (msg) ->
     msg.send msg.random skillz
 
-  robot.hear /\b(b[ro0]{2}ken?|hp|fail)\b/i, (msg) ->
+  robot.hear /\b(b[ro0]{2}ken?|hp|fail|quantum)\b/i, (msg) ->
     msg.send msg.random fails
 
   robot.hear /(?=.*\bcheck(ing|ed|s)?\b)(?=.*\bloges?).*/i, (msg) ->
